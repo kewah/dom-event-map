@@ -1,0 +1,21 @@
+{
+  "name": "dom-event-map",
+  "repo": "kewah/dom-event-map",
+  "description": "",
+  "version": "0.1.0",
+  "keywords": [
+    "event",
+    "map"
+  ],
+  "dependencies": {
+    "kewah/for-each": "*",
+    "kewah/mixin": "*",
+    "component/event": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
