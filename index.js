@@ -124,7 +124,7 @@ DomEventMap.prototype._listenerExists = function(params) {
   var exists = false;
 
   forEach(this._listeners, function(p) {
-    if (params.type === p.type && params.callback === p.callback && params.capture === p.capture) {
+    if (params.el === p.el && params.type === p.type && params.callback === p.callback && params.capture === p.capture) {
       exists = true;
       return false;
     }
